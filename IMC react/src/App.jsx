@@ -54,7 +54,7 @@ const App = ()  => {
                             <form onSubmit={calcular}>
                                 {/* input nombre */}
                                 <div className="mb-3">
-                                    <label htmlFor="form-label">Nombre: </label>
+                                    <label className="form-label">Nombre: </label>
                                     <input className="form-control" 
                                         type="text"
                                         value={nombre}
@@ -64,7 +64,7 @@ const App = ()  => {
                                 
                                 {/* input peso */}
                                 <div className="mb-3">
-                                    <label htmlFor="form-label">Peso (Kg): </label>
+                                    <label className="form-label">Peso (Kg): </label>
                                     <input className="form-control" 
                                         type="number"
                                         step={"0.1"}
@@ -75,7 +75,7 @@ const App = ()  => {
 
                                 {/* input estatura */}
                                 <div className="mb-3">
-                                    <label htmlFor="form-label">Estatura (m): </label>
+                                    <label className="form-label">Estatura (m): </label>
                                     <input className="form-control" 
                                         type="number"
                                         step={"0.01"}
